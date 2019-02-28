@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The config/application.yml with the Salesforce creds is in 1password, ask ken@pkcsecurity.co:
 
-Things you may want to cover:
+Then just `bundle update` and `rails server`
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+if you want a working test URL, try: http://0.0.0.0:3000/api/people?account_id=0011U00000DVztTQAT 
